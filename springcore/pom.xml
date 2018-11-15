@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ly</groupId>
+		<artifactId>spring</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>springcore</artifactId>
+	<name>springcore</name>
+	<url>http://maven.apache.org</url>
+
+	<modules>
+		<module>interceptor</module>
+		<module>profile</module>
+		<module>spring</module>
+		<module>spring2</module>
+		<module>spring3</module>
+		<module>spring4</module>
+		<module>springAOP</module>
+		<module>springApplicationListener</module>
+		<module>springconditional</module>
+		<module>springJavaConfigImportXmlConfig</module>
+		<module>springJavaConfigUseXmlConfig</module>
+		<module>springprofile</module>
+		<module>springstudy5</module>
+		<module>springXmlConfigImportJavaConfig</module>	
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<packaging>pom</packaging>
+
+</project>
