@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.ly</groupId>
-		<artifactId>spring</artifactId>
+		<artifactId>springx</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 

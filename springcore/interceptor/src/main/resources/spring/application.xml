@@ -19,7 +19,7 @@
 	<aop:config>
 		<!--切入点 -->
 		<aop:pointcut id="methodPoint"
-			expression="execution(* com.ly.interceptor.*.*(..)) " /><!--在该切入点使用自定义拦截器 -->
+			expression="execution(* com.ly.interceptor(..)) " /><!--在该切入点使用自定义拦截器 -->
 		<aop:advisor pointcut-ref="methodPoint" advice-ref="systemMethodInterceptor" />
 	</aop:config>
 
