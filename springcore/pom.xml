@@ -20,13 +20,13 @@
 		<module>spring2</module>
 		<module>spring3</module>
 		<module>spring4</module>
+		<module>spring5</module>
 		<module>springAOP</module>
 		<module>springApplicationListener</module>
 		<module>springconditional</module>
 		<module>springJavaConfigImportXmlConfig</module>
 		<module>springJavaConfigUseXmlConfig</module>
 		<module>springprofile</module>
-		<module>springstudy5</module>
 		<module>springXmlConfigImportJavaConfig</module>	
 		<module>springoldaop</module>
 		<module>springpojoaop</module>
