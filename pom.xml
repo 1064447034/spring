@@ -87,6 +87,7 @@
 		<!-- ly 图片上传 end -->
 		<joda-time.version>2.9.9</joda-time.version>
 		<validation-api.version>1.0.0.GA</validation-api.version>
+		<unitils.version>3.4.2</unitils.version>
 	</properties>
 
 	<!-- 设定主仓库，按设定顺序进行查找。 -->
@@ -757,6 +758,29 @@
 				<artifactId>validation-api</artifactId>
 				<version>${validation-api.version}</version>
 			</dependency>
+
+			<!-- Unitils -dbunit、Spring -->
+			<dependency>
+				<groupId>org.unitils</groupId>
+				<artifactId>unitils-dbunit</artifactId>
+				<version>${unitils.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.unitils</groupId>
+				<artifactId>unitils-io</artifactId>
+				<version>${unitils.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.unitils</groupId>
+				<artifactId>unitils-database</artifactId>
+				<version>${unitils.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.unitils</groupId>
+				<artifactId>unitils-spring</artifactId>
+				<version>${unitils.version}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
