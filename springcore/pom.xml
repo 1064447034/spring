@@ -30,6 +30,7 @@
 		<module>springpojoaop</module>
 		<module>springannotationaop</module>
     <module>ApplicationContextAware</module>
+    <module>InitializingBean</module>
   </modules>
 
 	<properties>
