@@ -1,8 +1,0 @@
-/target/
-*.iml
-*.log
-.idea/
-/.settings/
-.classpath
-.project
-.gitignore
