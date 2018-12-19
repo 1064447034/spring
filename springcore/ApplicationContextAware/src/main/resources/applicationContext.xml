@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop 
+						http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/tx 
+						http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+<!-- 	<bean id="a" class="com.ly.recyledi.StudentA"> -->
+<!-- 		<constructor-arg index="0" ref="b"></constructor-arg> -->
+<!-- 	</bean> -->
+<!-- 	<bean id="b" class="com.ly.recyledi.StudentB"> -->
+<!-- 		<constructor-arg index="0" ref="c"></constructor-arg> -->
+<!-- 	</bean> -->
+<!-- 	<bean id="c" class="com.ly.recyledi.StudentC"> -->
+<!-- 		<constructor-arg index="0" ref="a"></constructor-arg> -->
+<!-- 	</bean> -->
+
+    <!--scope="singleton"(默认就是单例方式)  -->
+    <bean id="a" class="com.ly.recyledi.StudentA" scope="singleton">
+        <property name="studentB" ref="b"></property>
+    </bean>
+    <bean id="b" class="com.ly.recyledi.StudentB" scope="singleton">
+        <property name="studentC" ref="c"></property>
+    </bean>
+    <bean id="c" class="com.ly.recyledi.StudentC" scope="singleton">
+        <property name="studentA" ref="a"></property>
+    </bean>
+</beans>
