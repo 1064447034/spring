@@ -24,8 +24,8 @@
 		<module>springtextarea</module>
 		<module>springtextbox</module>
 		<module>springtutorial</module>
-    <module>springMVCChildContainer</module>
-    <module>springmvcAspect</module>
+	    <module>springMVCChildContainer</module>
+	    <module>springmvcAspect</module>
   </modules>
 	
 	<properties>
